@@ -7,3 +7,5 @@ app = FastAPI()
 def predict(x: float):
     result = your_model.inference(x)
     return {"prediction": result}
+
+# TEST
